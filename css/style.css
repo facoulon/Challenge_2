@@ -1,0 +1,14 @@
+body {
+  background-image: url("/images/bg.png");
+
+}
+
+main {
+  width: 994px;
+  margin: 1% auto ;
+}
+
+h1 {
+  font-size: 52px;
+  color: #545454;
+}
