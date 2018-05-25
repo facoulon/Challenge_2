@@ -103,8 +103,43 @@ main>p {
     color: #807966;
 }
 
-/* main>hr {
+main hr {
+
     margin-top: 30px;
     height: 40px;
-    margin-bottom: 75px;
-} */
+    border: solid 1px ;
+    background-color:#fafafa;
+    border-color: rgb(204, 204, 204);
+    border-left: none;
+    border-right: none;
+}
+
+h3 {
+  text-align: center;
+  line-height: 75px;
+  font-size: 15px;
+}
+
+.articles {
+  border: none;
+  border-top: solid 1px rgb(204, 204, 204);
+  background-color:#fafafa;
+  width: 100%;
+  text-align: justify;
+}
+
+article {
+  padding: 20px 0;
+  text-align: justify;
+  display: inline-block;
+  height: 235px;
+  width: 24%;
+  vertical-align:top;
+
+}
+
+.articles:after {
+ content: '';
+ width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+ display: inline-block;
+}
