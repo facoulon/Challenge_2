@@ -44,7 +44,7 @@ nav {
     border-top: solid 1px;
     border-bottom: solid 1px;
     border-color: #606060;
-    background-color: #A6A6A6;
+    background-color: #fafafa;
 }
 
 nav>ul {
@@ -68,7 +68,7 @@ nav>ul>li>ul {
 nav>ul>li:hover>ul {
     display: block;
     position: absolute;
-    background-color: #A6A6A6;
+    background-color: #fafafa;
     text-align: center;
     width: 100%;
 }
@@ -113,7 +113,10 @@ main hr {
     border-left: none;
     border-right: none;
 }
-
+/*** FOOTER ***/
+footer{
+    color: #545454;;
+}
 h3 {
   text-align: center;
   line-height: 75px;
@@ -137,9 +140,19 @@ article {
   vertical-align:top;
 
 }
-
+article:first-child{
+    padding-left: 10px;
+}
 .articles:after {
  content: '';
  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
  display: inline-block;
+}
+footer h2{
+    font-size: 20px;
+    line-height: 2em;
+}
+footer li{
+    line-height: 1.5em;
+    text-align: left;
 }
